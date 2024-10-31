@@ -1,3 +1,6 @@
 .DS_store
 Python_Machine_Learning_Machine_Learning_and_Deep_Learning_with_Python.pdf
 *.json
+aclimdb/
+aclimdb_v1.tar.gz
+gs_lr_tfidf.pickle
