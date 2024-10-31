@@ -1,11 +1,12 @@
 
 # Note that there cannot be space before or after the equal sign in variable assignment in BASH
-USR_NAME="dat300-h24-50"
+USR_NAME="dat300-h24-30"
 HOST_NAME="${USR_NAME}@filemanager.orion.nmbu.no"
 
 # Note here that we have an extra slash at the end of the directory we are copying from, and we don't have it at the end of the directory we are copying to
 CURRENT_DIR=$(pwd)
-LOCAL_DIR="${CURRENT_DIR}/../training_scripts/"
+echo "Current directory: $CURRENT_DIR"
+LOCAL_DIR="${CURRENT_DIR}/assignment/CA3/script_slurm_bard_2.sh"
 REMOTE_DIR="${HOST_NAME}:~/training_scripts"
 
 rsync -avzP "$LOCAL_DIR" "$REMOTE_DIR"
