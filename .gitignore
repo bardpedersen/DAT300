@@ -4,3 +4,5 @@ Python_Machine_Learning_Machine_Learning_and_Deep_Learning_with_Python.pdf
 aclimdb/
 aclimdb_v1.tar.gz
 gs_lr_tfidf.pickle
+*.h5
+*.keras
